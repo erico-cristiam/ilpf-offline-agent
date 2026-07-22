@@ -33,8 +33,8 @@ ollama pull gemma3n:e2b
 Depois execute a aplicação:
 
 ```bash
-git clone https://github.com/erico-cristiam/ilps-offline-agent.git
-cd ilps-offline-agent
+git clone https://github.com/erico-cristiam/ilpf-offline-agent.git
+cd ilpf-offline-agent
 npm install
 npm run model:check
 npm run dev
