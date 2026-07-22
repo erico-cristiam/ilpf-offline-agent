@@ -36,15 +36,6 @@
     "content": "A regularização ambiental rural envolve instrumentos como o Cadastro Ambiental Rural e os Programas de Regularização Ambiental. A recomposição de Reserva Legal pode, nas condições do art. 66, utilizar plantio intercalado de espécies nativas com exóticas ou frutíferas em sistema agroflorestal, observados os critérios legais e do órgão ambiental. O projeto técnico precisa respeitar a destinação e as restrições específicas de cada área."
   },
   {
-    "id": "nota-equipe-embargo-ilpf",
-    "title": "Nota fornecida pela equipe: ILPF e cessação de embargo",
-    "institution": "Material fornecido pela equipe",
-    "authority": "referencia_complementar_revisao_pendente",
-    "url": "/references/referencia-legal-embargo-ilpf.pdf",
-    "tags": ["ILPF", "embargo", "PRAD", "TAC", "função social", "recuperação"],
-    "content": "O documento apresenta a ILPF como possível componente técnico de recuperação ambiental e de um PRAD, associando produção sustentável, recuperação do solo e função social da propriedade. Trata-se de uma nota complementar, não de fonte normativa. Afirmações sobre TAC, suspensão de multas ou cessação de embargo não são automáticas e devem ser conferidas na legislação vigente e com o órgão ambiental competente."
-  },
-  {
     "id": "embrapa-amazonia-2020",
     "title": "Sistemas agrossilvipastoris na Amazônia brasileira",
     "institution": "Embrapa",
@@ -106,5 +97,104 @@
     "url": "https://link.springer.com/book/9789027727695",
     "tags": ["camada limite", "microclima", "turbulência", "vento", "temperatura"],
     "content": "Referência fundamental sobre processos da camada limite atmosférica. Pode apoiar explicações de microclima, vento e temperatura, mas não contém, por si só, uma recomendação de espaçamento de árvores ou manejo animal para uma propriedade específica."
+  },
+  {
+    "id": "serra-2015-implantacao-ilpf",
+    "title": "Fundamentos técnicos para implantação de ILPF com eucalipto",
+    "institution": "Embrapa Gado de Corte e SENAR",
+    "authority": "referencia_tecnica",
+    "url": "https://www.embrapa.br/gado-de-corte",
+    "tags": ["implantação", "planejamento", "eucalipto", "solo", "propriedade"],
+    "content": "A implantação de ILPF deve partir da escolha e do diagnóstico da área, do preparo e correção do solo, do planejamento das linhas de árvores, do plantio das culturas e do manejo inicial do componente florestal. O material reforça que a viabilidade depende de conhecer a propriedade e as condições edafoclimáticas regionais. Doses, espécies e operações apresentadas no estudo não devem ser copiadas sem análise de solo e assistência técnica local."
+  },
+  {
+    "id": "serra-2015-arranjos-arboreos",
+    "title": "Arranjos espaciais e finalidade do componente arbóreo",
+    "institution": "Embrapa Gado de Corte e SENAR",
+    "authority": "referencia_tecnica",
+    "url": "https://www.embrapa.br/gado-de-corte",
+    "tags": ["arranjo espacial", "renques", "espaçamento", "madeira", "eucalipto"],
+    "content": "O desenho das faixas de árvores varia conforme a finalidade da madeira, a área ocupada pelos renques, a passagem de máquinas, a entrada de luz e a competição com lavoura e pastagem. O material apresenta exemplos de linhas simples, duplas e triplas, mas trata esses números como referências de desenho, não como prescrição universal."
+  },
+  {
+    "id": "embrapa-cultivando-futuro-2026-conceito",
+    "title": "Integração Lavoura-Pecuária-Floresta: Cultivando o Futuro - conceito e modalidades",
+    "institution": "Embrapa Pecuária Sudeste",
+    "authority": "referencia_tecnica",
+    "url": "https://doi.org/10.4322/9786586819427",
+    "tags": ["ILPF", "conceito", "modalidades", "diversificação", "baixa emissão de carbono"],
+    "content": "A ILPF é uma estratégia de produção sustentável que combina atividades agrícolas, pecuárias e florestais na mesma área por consórcio, sucessão ou rotação. A integração busca sinergia entre os componentes, diversificação, melhoria produtiva e qualidade ambiental. O conceito abrange modalidades com ou sem componente florestal, conforme o objetivo e o desenho do sistema."
+  },
+  {
+    "id": "embrapa-cultivando-futuro-2026-microclima",
+    "title": "Cultivando o Futuro - microclima em sistemas integrados",
+    "institution": "Embrapa Pecuária Sudeste",
+    "authority": "referencia_tecnica",
+    "url": "https://doi.org/10.4322/9786586819427",
+    "tags": ["microclima", "sombra", "radiação", "vento", "conforto térmico", "forragem"],
+    "content": "O componente arbóreo modifica radiação solar, vento, temperatura, umidade do ar e do solo. Essas mudanças podem favorecer o conforto térmico animal, mas o sombreamento e a competição também afetam pastagens e culturas. Por isso, o arranjo e o manejo das árvores devem ser monitorados e ajustados ao longo do tempo."
+  },
+  {
+    "id": "embrapa-cultivando-futuro-2026-solo",
+    "title": "Cultivando o Futuro - qualidade e funções do solo",
+    "institution": "Embrapa Pecuária Sudeste",
+    "authority": "referencia_tecnica",
+    "url": "https://doi.org/10.4322/9786586819427",
+    "tags": ["solo", "matéria orgânica", "água", "ciclagem de nutrientes", "recuperação"],
+    "content": "O solo presta funções produtivas e ambientais, incluindo suporte às plantas, ciclagem de nutrientes, infiltração e armazenamento de água, estoque de carbono e abrigo da biodiversidade. Sistemas integrados podem contribuir para recuperar funções físicas, químicas e biológicas, desde que o manejo seja orientado por diagnóstico e acompanhamento da qualidade do solo."
+  },
+  {
+    "id": "embrapa-cultivando-futuro-2026-economia-monitoramento",
+    "title": "Cultivando o Futuro - viabilidade e monitoramento",
+    "institution": "Embrapa Pecuária Sudeste",
+    "authority": "referencia_tecnica",
+    "url": "https://doi.org/10.4322/9786586819427",
+    "tags": ["viabilidade econômica", "fluxo de caixa", "indicadores", "monitoramento", "gestão"],
+    "content": "A viabilidade de um sistema integrado depende do desenho, da escala, dos preços, dos custos, do cronograma e das condições locais. A avaliação deve considerar fluxo de caixa e indicadores econômicos, ambientais e sociais ao longo de vários anos. Resultados de estudos de caso não devem ser transferidos diretamente para outra propriedade sem refazer os cálculos."
+  },
+  {
+    "id": "martinez-ilpf-amazonia-recuperacao",
+    "title": "O sistema ILPF na Amazônia - recuperação de pastagens",
+    "institution": "Embrapa Amazônia",
+    "authority": "referencia_tecnica_regional",
+    "url": "https://www.embrapa.br/amazonia-oriental",
+    "tags": ["Amazônia", "pastagem degradada", "milho", "braquiária", "rotação", "recuperação"],
+    "content": "Na Amazônia, sistemas integrados são usados para recuperar áreas alteradas e renovar pastagens. Entre as possibilidades descritas estão milho com forrageira, grãos seguidos de pastagem e rotações de dois ou mais anos antes da introdução da forrageira. O clima, a logística, o custo e o perfil produtivo regional determinam qual sequência é adequada."
+  },
+  {
+    "id": "martinez-ilpf-amazonia-arvores",
+    "title": "O sistema ILPF na Amazônia - escolha das árvores",
+    "institution": "Embrapa Amazônia",
+    "authority": "referencia_tecnica_regional",
+    "url": "https://www.embrapa.br/amazonia-oriental",
+    "tags": ["Amazônia", "espécies florestais", "mudas", "mercado", "bem-estar animal"],
+    "content": "A escolha do componente florestal na Amazônia deve considerar finalidade comercial ou não comercial, mercado consumidor, disponibilidade de mudas de qualidade, clima local e conhecimento silvicultural. Eucalipto é frequente, mas espécies nativas e outras exóticas também são estudadas. A entrada dos animais depende do estabelecimento da pastagem e do desenvolvimento das árvores."
+  },
+  {
+    "id": "agrocim-guia-pratico-ilpf-2026",
+    "title": "Guia prático de ILPF e recuperação de pastagens",
+    "institution": "Agrocim",
+    "authority": "conteudo_web_divulgacao_revisao_pendente",
+    "url": "https://agrocim.com.br/integracao-lavoura-pecuaria-floresta-ilpf-guia-pratico-para-aumentar-produtividade-e-recuperar-pastagens-na-fazenda/",
+    "tags": ["guia prático", "planejamento", "pastagem", "diversificação", "registro"],
+    "content": "O artigo de divulgação organiza a implantação em etapas como avaliação da área, análise de solo, desenho do sistema, escolha de componentes, implantação gradual, monitoramento e registro de resultados. Percentuais, custos, prazos e exemplos apresentados no artigo não foram adotados como fatos pela base e precisam de conferência em fonte técnica e assistência local."
+  },
+  {
+    "id": "john-deere-ilpf-sustentabilidade",
+    "title": "ILPF: integração, diversificação e sustentabilidade",
+    "institution": "John Deere Brasil",
+    "authority": "conteudo_institucional_divulgacao",
+    "url": "https://www.deere.com.br/pt/a-nossa-empresa/sustentabilidade/ilpf/",
+    "tags": ["diversificação", "uso da terra", "conforto animal", "renda", "sustentabilidade"],
+    "content": "O conteúdo institucional apresenta a ILPF como estratégia para integrar sistemas agrícola, pecuário e florestal, otimizar o uso da área, diversificar a produção e reduzir riscos. Também destaca conforto térmico animal, biodiversidade e estabilidade econômica como benefícios possíveis. Esses resultados dependem do desenho e do manejo de cada propriedade."
+  },
+  {
+    "id": "aegro-planejamento-ilpf-2025",
+    "title": "Planejamento operacional de sistemas ILPF",
+    "institution": "Aegro",
+    "authority": "conteudo_web_comercial_revisao_pendente",
+    "url": "https://aegro.com.br/blog/ilpf-vantagens-planejamento-integracao-lavoura-pecuaria/",
+    "tags": ["planejamento", "máquinas", "desrama", "desbaste", "gado", "deriva", "gestão"],
+    "content": "O artigo chama atenção para compatibilizar o espaçamento das árvores com máquinas e operações, planejar controle de formigas, replantio, desrama, desbaste, entrada dos animais e proteção de árvores jovens contra deriva. Por ser conteúdo comercial, medidas e regras práticas devem ser confirmadas em publicação técnica e com profissional habilitado antes da aplicação."
   }
 ]
