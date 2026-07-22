@@ -1,18 +1,14 @@
-# Roteiro do notebook Kaggle
+# Notebook Kaggle
 
-O notebook será a demonstração técnica reproduzível do projeto. A narrativa será escrita em português, com funções e variáveis em inglês.
+O notebook público demonstrará o mesmo fluxo usado pelo protótipo:
 
-## Seções previstas
+1. apresentação do problema na Amazônia;
+2. escolha do Gemma 3n E2B para execução eficiente;
+3. leitura do catálogo e dos trechos da base;
+4. recuperação dos contextos relevantes;
+5. geração da resposta com fontes;
+6. comparação entre Gemma sem contexto e Gemma + RAG;
+7. testes com perguntas de ILPF e regularização ambiental;
+8. limitações, segurança e caminho para Android offline.
 
-1. Problema e público atendido.
-2. Motivo da escolha do Gemma 3n E2B.
-3. Carregamento do modelo pelo Kaggle Models.
-4. Leitura e preparação dos materiais sobre ILPS.
-5. Divisão dos documentos em trechos.
-6. Recuperação dos trechos relevantes.
-7. Construção do prompt educacional.
-8. Geração da resposta com referências.
-9. Testes com perguntas de produtores.
-10. Interface interativa para demonstração.
-
-Cada seção terá uma explicação curta antes do código. O notebook deverá funcionar do início ao fim com **Run All** e manter exemplos de saída salvos para leitura sem GPU.
+Para a submissão, o notebook deve usar os pesos do Gemma disponíveis no Kaggle e explicar cada bloco de código. A interface web permanece como demonstração do produto.
