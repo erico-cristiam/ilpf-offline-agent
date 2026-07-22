@@ -1,30 +1,36 @@
-# Arquitetura planejada
+# Decisões de arquitetura
 
-## Protótipo do hackathon
+## Por que começamos pela web
 
-O site valida a experiência mobile-first, o diagnóstico inicial, a conversa educacional e a apresentação das fontes. O Kaggle Notebook demonstrará separadamente a inferência com Gemma e a recuperação de conhecimento.
+O hackathon tem duração de um dia. Um protótipo web nos permite validar a experiência do produtor, testar a linguagem e gravar a demonstração sem gastar a maior parte do tempo com empacotamento Android.
 
-## Produto final
+O site não é apresentado como produto final. Em telas grandes ele mostra um aparelho simulado; em celulares, ocupa toda a tela como um aplicativo.
+
+## Como o protótipo funciona hoje
+
+- A interface é construída com React e vinext.
+- As respostas do chat são exemplos locais e determinísticos.
+- O perfil, a trilha, o quiz e a biblioteca existem apenas durante a sessão.
+- Nenhum dado é enviado a serviços externos.
+
+## Como o aplicativo deverá funcionar
 
 ```text
-Pergunta do produtor
-        ↓
-Busca semântica na base local
-        ↓
-Trechos técnicos e metadados
-        ↓
-Gemma 3n E2B no dispositivo
-        ↓
-Resposta educacional + fontes + alertas
+pergunta
+  → busca semântica nos documentos locais
+  → seleção dos trechos mais relevantes
+  → prompt com contexto para o Gemma 3n E2B
+  → resposta com referência e aviso técnico
 ```
 
-- Aplicativo Android nativo.
-- Gemma 3n E2B Instruction-Tuned.
-- Inferência com LiteRT-LM.
-- Base técnica e índice armazenados no celular.
-- Funcionamento offline após a instalação inicial.
-- Dados do produtor preservados no próprio dispositivo.
+Componentes planejados:
+
+- aplicativo Android em Kotlin;
+- Gemma 3n E2B em formato compatível com LiteRT-LM;
+- índice de busca e documentos armazenados no aparelho;
+- histórico e preferências mantidos localmente;
+- atualização opcional da base quando houver conexão.
 
 ## Limites de segurança
 
-O agente explica conceitos, cuidados e alternativas. Recomendações dependentes de solo, clima, espécies, doses, custos ou diagnóstico de campo devem ser encaminhadas à assistência técnica.
+O tutor pode explicar conceitos, comparar possibilidades e sugerir perguntas para uma visita técnica. Escolha de espécies, correção do solo, dosagens, custos e desenho definitivo do sistema dependem de diagnóstico local e devem ser confirmados por profissional qualificado.
