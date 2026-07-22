@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Como recuperar uma pastagem degradada usando princípios de ILPS?",
+    "expected_topics": ["diagnóstico do solo", "planejamento", "assistência técnica"]
+  },
+  {
+    "question": "Quais benefícios as árvores podem oferecer ao rebanho?",
+    "expected_topics": ["conforto térmico", "diversificação", "conservação do solo"]
+  },
+  {
+    "question": "É possível começar uma ILPS em uma pequena propriedade?",
+    "expected_topics": ["talhão-piloto", "recursos disponíveis", "planejamento"]
+  }
+]
